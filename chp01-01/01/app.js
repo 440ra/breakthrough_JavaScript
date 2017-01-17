@@ -8,11 +8,11 @@ function Human(name) {
 //Humanにgreat[メソッド]を追加する
 Human.prototype.great = function () {
 	'use strict';
-	console.log("Hello " + this.name);
+	console.log('Hello ' + this.name);
 };
 
 //mikeオブジェクトのことを「インスタンス」という。
-var mike = new Human("Mike");
+var mike = new Human('Mike');
 
 //mikeオブジェクト自身はgreatがないので、
 //prototype「__proto__」を参照してgreat実行。
